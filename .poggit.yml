@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/LucasOnPM4/Test-Command-PM4
+build-by-default: true
+branches:
+- main
+projects:
+  Test-Command-PM4:
+    path: ""
+...
