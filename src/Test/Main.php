@@ -15,7 +15,7 @@ class Main extends PluginBase {
 
     protected function onEnable(): void
     {
-        $this->getLogger()->info("§l§6[!!!]§r §aTest Plugin ON §l§6[!!!]");
+        $this->getLogger()->info("§l§9[!!!]§r §aTest Plugin ON §l§9[!!!]");
 
         PermissionManager::getInstance()->addPermission(new Permission("testcommand.use"));
 
